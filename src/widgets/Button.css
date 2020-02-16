@@ -1,0 +1,19 @@
+.app-button {
+    width: 90%;
+    height: 5vh;
+    background-color: #61dafba4;
+    color: white;
+    margin: 30px 5px;
+    font-size: calc(10px + 1vmin);
+    font-weight: bold;
+    border:0px;
+  }
+  .app-button:focus {
+    outline: none;
+    border:0px;
+    box-shadow: 0px;
+    border-bottom: 0px;
+  }
+  .app-button:active {
+    background-color: #61dafbd5;
+  }

@@ -42,45 +42,7 @@
   }
 }
 
-.baseInput {
-  width: 90%;
-  height: 5vh;
-  background-color: #282c34;
-  color: white;
-  font-size: calc(10px + 1vmin);
-  border: 0px;
-  border-bottom: 2px solid #5c6986;
-  margin: 10px 5px;
-}
-
-.baseInput:focus {
-  outline: none;
-  border:0px;
-  box-shadow: 0px;
-  border-bottom: 2px solid #5c6986;
-}
-
 .dataContainer {
   width: 25vw;
   margin: auto;
-}
-
-.app-button {
-  width: 90%;
-  height: 5vh;
-  background-color: #61dafba4;
-  color: white;
-  margin: 30px 5px;
-  font-size: calc(10px + 1vmin);
-  font-weight: bold;
-  border:0px;
-}
-.app-button:focus {
-  outline: none;
-  border:0px;
-  box-shadow: 0px;
-  border-bottom: 0px;
-}
-.app-button:active {
-  background-color: #61dafbd5;
 }

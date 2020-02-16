@@ -1,5 +1,10 @@
 import React from 'react';
 import logo from './logo.svg';
+import BaseInput from './widgets/BasicInput';
+import DateInput from './widgets/DateInput';
+import TimeInput from './widgets/TimeInput';
+import Button from './widgets/Button';
+
 import './App.css';
 
 function App() {
@@ -7,23 +12,14 @@ function App() {
     <div className="App">
       <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          We know if are allowed to drive.
-        </p>
+        <p>We know if are allowed to drive.</p>
       </header>
       <div className="App-body">
         <div className="dataContainer">
-          <input className="baseInput" type="text"
-            placeholder="Plate number"
-            aria-label="Full-Width Text Field" />
-          <input className="baseInput" type="date"
-            placeholder="Date"
-            aria-label="Full-Width Text Field" />
-          <input className="baseInput" type="time"
-            placeholder="Time"
-            aria-label="Full-Width Text Field" />
-
-          <button className="app-button">Predict</button>
+          <BaseInput placeholder="Plate number"/>
+          <DateInput placeholder="Date"/>
+          <TimeInput placeholder="Time"/>
+          <Button label="Predict"/>
         </div>
       </div>
     </div>
