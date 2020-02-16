@@ -1,0 +1,22 @@
+.hidden-result {
+    display: none;
+}
+
+.visible-result {
+    display: inline;
+}
+
+.image-result {
+    height: 8vmin;
+    pointer-events: none;
+}
+
+.label-result {
+    font-size: calc(12px + 1vmin);
+    color: white;
+    font-weight: bold;
+}
+
+.item-container {
+    padding: 10px;
+}
