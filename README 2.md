@@ -1,1 +1,0 @@
-# car-plate-predictor-frontend
